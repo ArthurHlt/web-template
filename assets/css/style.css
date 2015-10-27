@@ -58,52 +58,65 @@ footer {
     left: 0;
 }
 .materialize-blue-cf.lighten-1 {
-  background-color: #67CDF0 !important; }
-
+  background-color: #2EA3F2 !important; }
+  
 .materialize-blue-cf-text.text-lighten-1 {
-  color: #67CDF0 !important; }
+  color: #2EA3F2 !important; }
 
-.materialize-blue-cf {
-  background-color: #1675A2 !important; }
-
-.materialize-blue-cf-text {
-  color: #1675A2 !important; }
-
-.materialize-blue-cf.darken-1 {
-  background-color: #005E94 !important; }
-
-.materialize-blue-cf-text.text-darken-1 {
-  color: #005E94 !important; }
-
-.blue-cf.lighten-1 {
-  background-color: #67CDF0 !important; }
-
-.blue-cf-text.text-lighten-1 {
-  color: #67CDF0 !important; }
-
-.blue-cf {
-  background-color: #1675A2 !important; }
-
-.blue-cf-text {
-  color: #1675A2 !important; }
-
-.blue-cf.darken-1 {
-  background-color: #004678 !important; }
-
-.blue-cf-text.text-darken-1 {
-  color: #004678 !important; }
-
-.blue-cf.accent-1 {
+.materialize-blue-cf.lighten-2 {
   background-color: #B0E4F9 !important; }
 
-.blue-cf-text.text-accent-1 {
+.materialize-blue-cf-text.text-lighten-2 {
   color: #B0E4F9 !important; }
+
+.materialize-blue-cf {
+  background-color: #2B98CE !important; }
+
+.materialize-blue-cf-text {
+  color: #2B98CE !important; }
+
+.materialize-blue-cf.darken-1 {
+  background-color: #1E73BE !important; }
+
+.materialize-blue-cf-text.text-darken-1 {
+  color: #1E73BE !important; }
+
+.blue-cf.lighten-2 {
+  background-color: #B0E4F9 !important; }
+
+.blue-cf-text.text-lighten-2 {
+  color: #B0E4F9 !important; }
+
+.blue-cf.lighten-1 {
+  background-color: #2EA3F2 !important; }
+
+.blue-cf-text.text-lighten-1 {
+  color: #2EA3F2 !important; }
+
+.blue-cf {
+  background-color: #2B98CE !important; }
+
+.blue-cf-text {
+  color: #2B98CE !important; }
+
+.blue-cf.darken-1 {
+  background-color: #1E73BE !important; }
+
+.blue-cf-text.text-darken-1 {
+  color: #1E73BE !important; }
+
+
+.blue-cf.accent-1 {
+  background-color: #70ACD5 !important; }
+
+.blue-cf-text.text-accent-1 {
+  color: #70ACD5 !important; }
 
 /* give blue-cf color for link and dropdown link */
 a{
-  color: #1675A2;
+  color: #2B98CE;
 }
 .dropdown-content li > a, 
 .dropdown-content li > span{
-  color: #1675A2;
+  color: #2B98CE;
 }
