@@ -1,0 +1,104 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #424242;
+}
+
+.nav-wrapper a {
+    color: #f4f4f4;
+}
+.side-nav,
+.side-nav a {
+  color: #424242;
+}
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.border-5{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.brand-logo img {
+    height: 54px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 3px;
+    background-color: white;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.container {
+    padding-bottom: 75px;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.materialize-blue-cf.lighten-1 {
+  background-color: #67CDF0 !important; }
+
+.materialize-blue-cf-text.text-lighten-1 {
+  color: #67CDF0 !important; }
+
+.materialize-blue-cf {
+  background-color: #1675A2 !important; }
+
+.materialize-blue-cf-text {
+  color: #1675A2 !important; }
+
+.materialize-blue-cf.darken-1 {
+  background-color: #005E94 !important; }
+
+.materialize-blue-cf-text.text-darken-1 {
+  color: #005E94 !important; }
+
+.blue-cf.lighten-1 {
+  background-color: #67CDF0 !important; }
+
+.blue-cf-text.text-lighten-1 {
+  color: #67CDF0 !important; }
+
+.blue-cf {
+  background-color: #1675A2 !important; }
+
+.blue-cf-text {
+  color: #1675A2 !important; }
+
+.blue-cf.darken-1 {
+  background-color: #004678 !important; }
+
+.blue-cf-text.text-darken-1 {
+  color: #004678 !important; }
+
+.blue-cf.accent-1 {
+  background-color: #B0E4F9 !important; }
+
+.blue-cf-text.text-accent-1 {
+  color: #B0E4F9 !important; }
+
+a{
+  color: #1675A2;
+}

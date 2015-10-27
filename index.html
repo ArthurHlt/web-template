@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>ElPaaSo Layout</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon"/>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="assets/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+<div id="wrapper">
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">one</a></li>
+      <li><a href="#!">two</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">three</a></li>
+    </ul>
+    <nav class="blue-cf lighten-1" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">
+            <img src="assets/images/cloud-foundry-community-logo.png" class="border-5"/> Cloud Foundry Community
+        </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Link 1</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+
+            <!-- navigation mobile -->
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="#">Link 1</a></li>
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header">Dropdown<i class="material-icons left">arrow_drop_down</i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#!">one</a></li>
+                                    <li><a href="#!">two</a></li>
+                                    <li><a href="#!">three</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a> <!-- show an hamburger icon when on mobile -->
+            <!---->
+        </div>
+    </nav>
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <br/><br/>
+
+            <h1 class="header center grey-text darken-3">Welcome on Cloud Foundry Community template</h1>
+
+            <div class="row center">
+                <h5 class="header col s12 light">This is only to have a template when creating new dashboard or website for cloud foundry community project.</h5>
+            </div>
+            <div class="row center">
+                <a href="#" id="download-button"
+                   class="btn-large waves-effect waves-light blue-cf">Download !</a>
+            </div>
+            <br/><br/>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+
+          <!--   Icon Section   -->
+          <div class="row">
+            <div class="col s12 m3">
+              <div class="icon-block">
+                <h2 class="center blue-cf-text text-lighten-1"><i class="material-icons">flash_on</i></h2>
+                <h5 class="center">Speeds up development</h5>
+
+                <p class="light">Use this template to start a fast dashboard or website for computer and mobile devices.</p>
+              </div>
+            </div>
+
+            <div class="col s12 m3">
+              <div class="icon-block">
+                <h2 class="center blue-cf-text text-lighten-1"><i class="material-icons">group</i></h2>
+                <h5 class="center">User Experience Focused</h5>
+
+                <p class="light">It use <a href="http://materializecss.com">materializecss</a> to focus on user experience. This library follow specification made by google for good design: <a href="https://www.google.com/design/spec/material-design/introduction.html">google material design</a></p>
+              </div>
+            </div>
+
+            <div class="col s12 m3">
+              <div class="icon-block">
+                <h2 class="center blue-cf-text text-lighten-1"><i class="material-icons">settings</i></h2>
+                <h5 class="center">Easy to work with</h5>
+
+                <p class="light"><a href="http://materializecss.com">Materializecss</a> is really simple to use, go to their website to see possibilities.</p>
+              </div>
+            </div>
+            <div class="col s12 m3">
+              <div class="icon-block">
+                <h2 class="center blue-cf-text text-lighten-1"><i class="material-icons">invert_colors</i></h2>
+                <h5 class="center">Special colors to follow Cloud Foundry design</h5>
+                <p class="light">
+                    Here you can see those new colors (see source or <a href="http://materializecss.com/color.html">materializecss</a> to know how to use):
+                    <div class="blue-cf darken-1" style="color: rgba(255, 255, 255, 0.9); padding: 5px;">blue-cf darken-1</div>
+                    <div class="blue-cf" style="color: rgba(255, 255, 255, 0.9); padding: 5px;">blue-cf</div>
+                    <div class="blue-cf lighten-1" style="color: rgba(255, 255, 255, 0.9); padding: 5px;">blue-cf lighten-1</div>
+                    <div class="blue-cf accent-1" style="color: rgba(66, 66, 66, 0.9); padding: 5px;">blue-cf accent-1</div>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <br><br>
+
+        <div class="section">
+
+        </div>
+    </div>
+
+    <footer class="page-footer blue-cf">
+        <div class="footer-copyright">
+            <div class="container">
+                <!-- you should remove it for your project -->
+                Made by <a class="orange-text text-lighten-3" href="https://github.com/Orange-OpenSource-Cf">ElPaaSo Team</a>
+                <!---->
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!--  Scripts-->
+<script src="assets/js/jquery-2.1.4.min.js"></script>
+<script src="assets/js/materialize.min.js"></script>
+<script src="assets/js/init.js"></script>
+</body>
+</html>
