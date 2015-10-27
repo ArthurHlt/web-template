@@ -99,6 +99,11 @@ footer {
 .blue-cf-text.text-accent-1 {
   color: #B0E4F9 !important; }
 
+/* give blue-cf color for link and dropdown link */
 a{
+  color: #1675A2;
+}
+.dropdown-content li > a, 
+.dropdown-content li > span{
   color: #1675A2;
 }
