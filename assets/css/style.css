@@ -32,6 +32,7 @@ body {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  padding: 2px;
 }
 
 .brand-logo img {
@@ -59,7 +60,7 @@ footer {
 }
 .materialize-blue-cf.lighten-1 {
   background-color: #2EA3F2 !important; }
-  
+
 .materialize-blue-cf-text.text-lighten-1 {
   color: #2EA3F2 !important; }
 
@@ -105,6 +106,8 @@ footer {
 .blue-cf-text.text-darken-1 {
   color: #1E73BE !important; }
 
+.border-blue-cf{
+  border-color:#2B98CE; }
 
 .blue-cf.accent-1 {
   background-color: #70ACD5 !important; }
